@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1712BFB1-0B98-4D73-BBCB-8BEE6D265A4D}" SchemaVersion="85" RootDocumentID="{494D51B1-B218-4B83-84C7-504CF37768DE}">
+	<InteractiveMusic>
+		<WorkUnit Name="Wesley Music Setup Unit" ID="{1712BFB1-0B98-4D73-BBCB-8BEE6D265A4D}" OwnerID="{494D51B1-B218-4B83-84C7-504CF37768DE}" PersistMode="Nested"/>
+	</InteractiveMusic>
+</WwiseDocument>

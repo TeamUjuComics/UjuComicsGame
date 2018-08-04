@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6AADE804-C9F0-433B-A6F9-46D406F42BB5}" SchemaVersion="85" RootDocumentID="{14E87E69-F3EA-4CB4-9142-6A123CD0F308}">
+	<Events>
+		<WorkUnit Name="Jesse Work Unit" ID="{6AADE804-C9F0-433B-A6F9-46D406F42BB5}" OwnerID="{14E87E69-F3EA-4CB4-9142-6A123CD0F308}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="Jesse Sound Unit" ID="{E7A8874E-57E0-4FE0-9ACC-1126CE4DF4E2}" PersistMode="Reference"/>
+				<WorkUnit Name="Jesse Music Unit" ID="{FF8A236C-E824-412E-9D08-701FF72F9231}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

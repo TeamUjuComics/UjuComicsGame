@@ -3,7 +3,9 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{14E87E69-F3EA-4CB4-9142-6A123CD0F308}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Test_Event" ID="{07F70BCE-782E-4B6B-B828-C665F722E141}"/>
+				<WorkUnit Name="Jesse Work Unit" ID="{6AADE804-C9F0-433B-A6F9-46D406F42BB5}" PersistMode="Reference"/>
+				<WorkUnit Name="Wesley Work Unit" ID="{6B3A17A1-5FB4-42F1-A8A1-67BF144B2CD0}" PersistMode="Reference"/>
+				<WorkUnit Name="Aaron Work Unit" ID="{E39F019B-8325-4768-81EF-31E2E69F8163}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
