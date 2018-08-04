@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2353733A-C555-4B01-A4C6-7EEA36313CAD}" SchemaVersion="85">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{2353733A-C555-4B01-A4C6-7EEA36313CAD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2353733A-C555-4B01-A4C6-7EEA36313CAD}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Island_1" ID="{40B232AF-EB09-4A89-9141-5EE84DACDAEB}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Island_2" ID="{66F1F6C1-CFA5-4B46-9267-B2D0B96E961C}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Island_3" ID="{FD1B0F61-44EC-4F11-8589-23525A169F36}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Island_4" ID="{DC636C54-43F7-4881-AF04-832C282DAB8F}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>
