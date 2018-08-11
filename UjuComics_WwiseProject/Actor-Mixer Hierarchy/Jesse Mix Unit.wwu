@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9A86CA27-DFE4-4B3B-948A-84FEB97345A5}" SchemaVersion="85" RootDocumentID="{5C202F10-C9E7-4813-9848-DEAA8CC72952}">
 	<AudioObjects>
-		<WorkUnit Name="Jesse Mix Unit" ID="{9A86CA27-DFE4-4B3B-948A-84FEB97345A5}" OwnerID="{5C202F10-C9E7-4813-9848-DEAA8CC72952}" PersistMode="Nested"/>
+		<WorkUnit Name="Jesse Mix Unit" ID="{9A86CA27-DFE4-4B3B-948A-84FEB97345A5}" OwnerID="{5C202F10-C9E7-4813-9848-DEAA8CC72952}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchContainer Name="DialogueDrawRange" ID="{984AB1A9-C13A-4094-AA8D-356012930486}" ShortID="776003683">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{34FB7104-20CA-40FA-8216-A850CAEE5E05}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{79C237B6-1FDA-47FA-A3E9-3EDB269F0D93}"/>
+						</Reference>
+					</ReferenceList>
+					<GroupingInfo/>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
