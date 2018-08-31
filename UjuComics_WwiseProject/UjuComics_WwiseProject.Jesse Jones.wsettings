@@ -3,7 +3,9 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{186821F7-6C16-4CD4-B5DB-B5672CE037C7}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Jesse Jones\Documents Proper\Game Projects\Unreal Projects\Professional\UjuComicsGame\Raw Audio Assets\JESSE\Sound\Text Draw Voices\Pleasant"/>
 				<Property Name="Event Action List\{07F70BCE-782E-4B6B-B828-C665F722E141}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{34CA6B04-4081-4A20-B59A-B0600812E33A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -23,7 +25,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="zZP7y/oO5ECqHWiNfIAi4QH/////////pyYl0Sj6VEqaRw34yXZJswH/////////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="pyYl0Sj6VEqaRw34yXZJswH/////////zZP7y/oO5ECqHWiNfIAi4QH/////////"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
@@ -50,9 +52,9 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="tjfCedof+kej6T7bJp8Nkw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="EC8gXOfJE0iYSN6qjMcpUifKhprk3ztLlIqE/rlzRaU="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="qbFKmDrBlECqjTVgEpMEhvArD6m8zN1Ap0ctRIPu5+AQLyBc58kTSJhI3qqMxylSJ8qGmuTfO0uUioT+uXNFpQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="BOitavDJO0Om+UbUBvQrtWl+6BTq87RMkUJqEjzQ8whOh6jn4FfgT5rMESbOTfTi"/>
-				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="3QKpdu72RUujeBpsOAuv4ljtMx9tcq5Mm6pMEAvHyF4="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="OnNTI1XFAUukxn7qNjE8rQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value=""/>
@@ -89,6 +91,8 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="SoundEngine\AudioDevice" Type="int32" Value="4"/>
+				<Property Name="SoundEngine\BusMapping\{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Type="string" Value="{75337BDE-5A96-45D8-B67B-A1C7FE8002C6}1734833274"/>
 			</PropertyList>
 		</UserProjectSettings>
 	</UserProjectSettingsInfo>

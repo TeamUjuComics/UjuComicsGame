@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="85">
 	<ValidationCacheItem File="C:\Users\Jesse Jones\Documents Proper\Game Projects\Unreal Projects\Professional\UjuComicsGame\UjuComics_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1533401741" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Jesse Jones\Documents Proper\Game Projects\Unreal Projects\Professional\UjuComicsGame\UjuComics_WwiseProject\Actor-Mixer Hierarchy\Jesse Mix Unit.wwu" DateLow="1533401539" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Jesse Jones\Documents Proper\Game Projects\Unreal Projects\Professional\UjuComicsGame\UjuComics_WwiseProject\Actor-Mixer Hierarchy\Jesse Mix Unit.wwu" DateLow="1534025074" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Jesse Jones\Documents Proper\Game Projects\Unreal Projects\Professional\UjuComicsGame\UjuComics_WwiseProject\Actor-Mixer Hierarchy\Wesley Mix Unit.wwu" DateLow="1533401547" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Jesse Jones\Documents Proper\Game Projects\Unreal Projects\Professional\UjuComicsGame\UjuComics_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1533341284" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Jesse Jones\Documents Proper\Game Projects\Unreal Projects\Professional\UjuComicsGame\UjuComics_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1533341284" DateHigh="0"/>
@@ -37,7 +37,7 @@
 	<ValidationCacheItem File="C:\Users\Jesse Jones\Documents Proper\Game Projects\Unreal Projects\Professional\UjuComicsGame\UjuComics_WwiseProject\States\Default Work Unit.wwu" DateLow="1533341284" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Jesse Jones\Documents Proper\Game Projects\Unreal Projects\Professional\UjuComicsGame\UjuComics_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1533341284" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Jesse Jones\Documents Proper\Game Projects\Unreal Projects\Professional\UjuComicsGame\UjuComics_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1533341284" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Jesse Jones\Documents Proper\Game Projects\Unreal Projects\Professional\UjuComicsGame\UjuComics_WwiseProject\UjuComics_WwiseProject.Jesse Jones.wsettings" DateLow="1533403999" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Jesse Jones\Documents Proper\Game Projects\Unreal Projects\Professional\UjuComicsGame\UjuComics_WwiseProject\UjuComics_WwiseProject.Jesse Jones.wsettings" DateLow="1534027914" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Jesse Jones\Documents Proper\Game Projects\Unreal Projects\Professional\UjuComicsGame\UjuComics_WwiseProject\UjuComics_WwiseProject.wproj" DateLow="1533341284" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Jesse Jones\Documents Proper\Game Projects\Unreal Projects\Professional\UjuComicsGame\UjuComics_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1533341284" DateHigh="0"/>
 </ValidationCache>
