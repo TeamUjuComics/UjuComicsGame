@@ -4,6 +4,20 @@
 		<WorkUnit Name="Jesse Sound Unit" ID="{E7A8874E-57E0-4FE0-9ACC-1126CE4DF4E2}" OwnerID="{6AADE804-C9F0-433B-A6F9-46D406F42BB5}" PersistMode="Nested">
 			<ChildrenList>
 				<Event Name="Test_Event" ID="{07F70BCE-782E-4B6B-B828-C665F722E141}"/>
+				<Event Name="Dialogue_Draw" ID="{34CA6B04-4081-4A20-B59A-B0600812E33A}">
+					<ChildrenList>
+						<Action Name="" ID="{B9D12E64-BFBA-446E-91B2-020A2FD6BE82}" ShortID="970348182">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dialogue_Draw_Expository_Pleasant" ID="{984AB1A9-C13A-4094-AA8D-356012930486}" WorkUnitID="{9A86CA27-DFE4-4B3B-948A-84FEB97345A5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
