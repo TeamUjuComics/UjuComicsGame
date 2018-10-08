@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{B24C13CC-58F2-4C00-824C-0C813F565D2A}" SchemaVersion="85" RootDocumentID="{B9D1A687-5FF2-4F64-9F80-B768E8C029A6}">
+<WwiseDocument Type="WorkUnit" ID="{B24C13CC-58F2-4C00-824C-0C813F565D2A}" SchemaVersion="89" RootDocumentID="{B9D1A687-5FF2-4F64-9F80-B768E8C029A6}">
 	<SoundcasterSessions>
 		<WorkUnit Name="Wesley Soundcaster Unit" ID="{B24C13CC-58F2-4C00-824C-0C813F565D2A}" OwnerID="{B9D1A687-5FF2-4F64-9F80-B768E8C029A6}" PersistMode="Nested"/>
 	</SoundcasterSessions>

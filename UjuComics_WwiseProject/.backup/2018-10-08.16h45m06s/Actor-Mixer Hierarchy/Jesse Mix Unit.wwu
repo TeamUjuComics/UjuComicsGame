@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9A86CA27-DFE4-4B3B-948A-84FEB97345A5}" SchemaVersion="85" RootDocumentID="{5C202F10-C9E7-4813-9848-DEAA8CC72952}">
+	<AudioObjects>
+		<WorkUnit Name="Jesse Mix Unit" ID="{9A86CA27-DFE4-4B3B-948A-84FEB97345A5}" OwnerID="{5C202F10-C9E7-4813-9848-DEAA8CC72952}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="Dialogue_Draw_Mix" ID="{30312E4F-C069-40C1-9215-98089E0397FC}" ShortID="406262027">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{34FB7104-20CA-40FA-8216-A850CAEE5E05}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{79C237B6-1FDA-47FA-A3E9-3EDB269F0D93}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="Dialogue_Draw_Expository_Pleasant" ID="{984AB1A9-C13A-4094-AA8D-356012930486}" ShortID="776003683">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{34FB7104-20CA-40FA-8216-A850CAEE5E05}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Pleasant_Pitch_01" ID="{B9518A18-8C8A-42FE-8F3A-F51DE47D74DD}" WorkUnitID="{76A902DD-F6EE-4B45-A378-1A6C380BAFE2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{79C237B6-1FDA-47FA-A3E9-3EDB269F0D93}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Pleasant_or_Expository" ID="{1F33ED58-726D-4CAE-9BAA-4C100BC7C85E}" WorkUnitID="{76A902DD-F6EE-4B45-A378-1A6C380BAFE2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Pleasant_Pitch_01" ID="{A90F2BF0-CCBC-40DD-A747-2D4483EEE7E0}" ShortID="128795226">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6582C35D-9E60-4692-A4B7-7EEE840429A1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="177"/>
+															<Property Name="Min" Type="Real64" Value="-25"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{34FB7104-20CA-40FA-8216-A850CAEE5E05}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{79C237B6-1FDA-47FA-A3E9-3EDB269F0D93}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Text_Draw_Pleasant_Variation_01" ID="{4788EEEC-1B52-45BD-8C0E-3DA25F0E3AFD}" ShortID="866517893">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{34FB7104-20CA-40FA-8216-A850CAEE5E05}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{79C237B6-1FDA-47FA-A3E9-3EDB269F0D93}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Text_Draw_Pleasant_Variation_01" ID="{2F94DE83-00D7-4049-8E93-D45C1A565D4D}" ShortID="286055076">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Text_Draw_Pleasant_Variation_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Text_Draw_Pleasant_Variation_01" ID="{2F94DE83-00D7-4049-8E93-D45C1A565D4D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Text_Draw_Pleasant_Variation_02" ID="{1F00FBF6-0F3A-4F29-9F13-B9B0B3B045C8}" ShortID="590821983">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{34FB7104-20CA-40FA-8216-A850CAEE5E05}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{79C237B6-1FDA-47FA-A3E9-3EDB269F0D93}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Text_Draw_Pleasant_Variation_02" ID="{B9191CD7-B30E-4DF0-AD1F-7F6EB40F78E4}" ShortID="592769669">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Text_Draw_Pleasant_Variation_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Text_Draw_Pleasant_Variation_02" ID="{B9191CD7-B30E-4DF0-AD1F-7F6EB40F78E4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Text_Draw_Pleasant_Variation_04" ID="{AF3508A3-B4C1-43CB-8FEF-0605D0DE5AB7}" ShortID="166479521">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{34FB7104-20CA-40FA-8216-A850CAEE5E05}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{79C237B6-1FDA-47FA-A3E9-3EDB269F0D93}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Text_Draw_Pleasant_Variation_04" ID="{DB26CA44-8D97-41DC-97FD-ECADD95876E4}" ShortID="332476519">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Text_Draw_Pleasant_Variation_04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Text_Draw_Pleasant_Variation_04" ID="{DB26CA44-8D97-41DC-97FD-ECADD95876E4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Text_Draw_Pleasant_Variation_07" ID="{F256978F-44E4-451E-99AF-E85FF3E75FD8}" ShortID="1027596958">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{34FB7104-20CA-40FA-8216-A850CAEE5E05}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{79C237B6-1FDA-47FA-A3E9-3EDB269F0D93}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Text_Draw_Pleasant_Variation_07" ID="{1398150A-6A84-4E68-B00F-424FA8FAD3CC}" ShortID="795187960">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Text_Draw_Pleasant_Variation_07.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Text_Draw_Pleasant_Variation_07" ID="{1398150A-6A84-4E68-B00F-424FA8FAD3CC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Pleasant_Pitch_02" ID="{931E8F6A-87B1-4B8C-A9EF-170E6C51B494}" ShortID="792967892">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1F0210C5-B78B-488D-80F0-3BB45DED6923}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="126"/>
+															<Property Name="Min" Type="Real64" Value="-101"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{34FB7104-20CA-40FA-8216-A850CAEE5E05}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{79C237B6-1FDA-47FA-A3E9-3EDB269F0D93}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Text_Draw_Pleasant_Variation_03" ID="{DD941BA4-895C-4343-867F-45095A5CDCA0}" ShortID="761322196">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Text_Draw_Pleasant_Variation_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Text_Draw_Pleasant_Variation_03" ID="{DD941BA4-895C-4343-867F-45095A5CDCA0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Pleasant_Pitch_03" ID="{506D946C-126F-45FB-A16F-2E5E9886AA96}" ShortID="10947049">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2EDFD8E7-C15E-476E-9F40-568A79E843B8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="76"/>
+															<Property Name="Min" Type="Real64" Value="-126"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{34FB7104-20CA-40FA-8216-A850CAEE5E05}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{79C237B6-1FDA-47FA-A3E9-3EDB269F0D93}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Text_Draw_Pleasant_Variation_05" ID="{E42F04E2-D91D-4576-A5A6-7FCAD694A052}" ShortID="85644346">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Text_Draw_Pleasant_Variation_05.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Text_Draw_Pleasant_Variation_05" ID="{E42F04E2-D91D-4576-A5A6-7FCAD694A052}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Pleasant_Pitch_04" ID="{4320FC77-1A95-4FB7-9F53-6EB27049679A}" ShortID="779226315">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D99F6C54-DBF3-449A-A9B7-5C7174EA8166}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="126"/>
+															<Property Name="Min" Type="Real64" Value="-76"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{34FB7104-20CA-40FA-8216-A850CAEE5E05}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{79C237B6-1FDA-47FA-A3E9-3EDB269F0D93}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Text_Draw_Pleasant_Variation_06" ID="{DF78A75C-54F6-4967-A5D2-E24153B069EC}" ShortID="17251382">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Text_Draw_Pleasant_Variation_06.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Text_Draw_Pleasant_Variation_06" ID="{DF78A75C-54F6-4967-A5D2-E24153B069EC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Pleasant_Pitch_02" ID="{931E8F6A-87B1-4B8C-A9EF-170E6C51B494}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Pleasant_Pitch_03" ID="{506D946C-126F-45FB-A16F-2E5E9886AA96}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Pleasant_Pitch_04" ID="{4320FC77-1A95-4FB7-9F53-6EB27049679A}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Pleasant_Pitch_01" ID="{A90F2BF0-CCBC-40DD-A747-2D4483EEE7E0}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Pleasant_Pitch_01" ID="{B9518A18-8C8A-42FE-8F3A-F51DE47D74DD}"/>
+										<ItemList>
+											<ItemRef Name="Pleasant_Pitch_01" ID="{A90F2BF0-CCBC-40DD-A747-2D4483EEE7E0}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Pleasant_Pitch_03" ID="{1C5E8134-A0A8-4020-A364-BC85860FFEB4}"/>
+										<ItemList>
+											<ItemRef Name="Pleasant_Pitch_03" ID="{506D946C-126F-45FB-A16F-2E5E9886AA96}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Pleasant_Pitch_02" ID="{EB8CE077-23EF-4BA0-B3C8-47B8A433651C}"/>
+										<ItemList>
+											<ItemRef Name="Pleasant_Pitch_02" ID="{931E8F6A-87B1-4B8C-A9EF-170E6C51B494}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Pleasant_Pitch_04" ID="{5270C0F4-D9CC-467B-BEF5-76874C78DAC7}"/>
+										<ItemList>
+											<ItemRef Name="Pleasant_Pitch_04" ID="{4320FC77-1A95-4FB7-9F53-6EB27049679A}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

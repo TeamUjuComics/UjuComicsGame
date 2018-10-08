@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{494D51B1-B218-4B83-84C7-504CF37768DE}" SchemaVersion="85">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{494D51B1-B218-4B83-84C7-504CF37768DE}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Wesley Music Setup Unit" ID="{1712BFB1-0B98-4D73-BBCB-8BEE6D265A4D}" PersistMode="Reference"/>
+				<WorkUnit Name="Jesse Music Setup Unit" ID="{27DBDC96-F252-4DE8-8B62-9CD44D7A15C6}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

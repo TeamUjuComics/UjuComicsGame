@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{76A902DD-F6EE-4B45-A378-1A6C380BAFE2}" SchemaVersion="85">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{76A902DD-F6EE-4B45-A378-1A6C380BAFE2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Pleasant_or_Expository" ID="{1F33ED58-726D-4CAE-9BAA-4C100BC7C85E}">
+					<ChildrenList>
+						<Switch Name="Pleasant_Pitch_01" ID="{B9518A18-8C8A-42FE-8F3A-F51DE47D74DD}"/>
+						<Switch Name="Pleasant_Pitch_02" ID="{EB8CE077-23EF-4BA0-B3C8-47B8A433651C}"/>
+						<Switch Name="Pleasant_Pitch_03" ID="{1C5E8134-A0A8-4020-A364-BC85860FFEB4}"/>
+						<Switch Name="Pleasant_Pitch_04" ID="{5270C0F4-D9CC-467B-BEF5-76874C78DAC7}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Aggression" ID="{693A892A-9E9A-4850-8305-262093A5DB1B}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

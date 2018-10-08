@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5C202F10-C9E7-4813-9848-DEAA8CC72952}" SchemaVersion="85">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{5C202F10-C9E7-4813-9848-DEAA8CC72952}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Jesse Mix Unit" ID="{9A86CA27-DFE4-4B3B-948A-84FEB97345A5}" PersistMode="Reference"/>
+				<WorkUnit Name="Wesley Mix Unit" ID="{949763B1-9C4F-44B2-AC9F-36AB7E644A56}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
